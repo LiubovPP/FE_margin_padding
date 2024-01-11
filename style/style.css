@@ -1,0 +1,116 @@
+
+*{
+    /* отключим встроенные в браузере отступы  */
+    /* селектор * это обращение ко всем элементам  */
+    margin: 0;
+    padding: 0;
+}
+.page {
+    padding: 60px 30px;
+}
+
+.target {
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    /* <!--  типы отступов --> */
+
+    margin: 50px 100px;
+    /* margin это внешний отступ */
+
+padding: 30px;
+padding-bottom: 60px;
+     /* padding это внутренний  отступ 
+     при указании одного значения, отступит одинаково со всех 
+     сторон
+     при указании двух или четырех разные отступы
+     */ 
+        /* padding: 30px 60px 90px 120px; */
+/* 
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 10px; */
+
+    
+}
+.task{
+    /* для task указать 
+
+    отступ внутренний 
+    верх 60
+    лево 50
+    низ 30
+    право 50 */
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    
+    margin: 60px;
+
+    padding: 60px 50px;
+    padding-bottom: 30px;
+        
+    }
+    #main-info {
+    background-color:#b2bec3;
+    }
+    #main-info h1 {
+    margin-bottom: 50px;
+    }
+
+    #main-info .bikes {
+        border: 2px solid gray;
+        padding: 20px;
+        margin-top: 50px;
+        width: 500px;
+        background-color: #dfe6e9;
+    }
+
+    #main-info .bikes img {
+        height: 180px;
+        width: 120px;
+        margin: 0 20px;
+        object-fit: contain;
+        /* object-fit: cover; вырезает часть картинки и вставляет, 
+        хорошо для орнаментов */
+        /* object-fit: contain; чтобы картинка не деформировалась */
+    }
+    #health {
+        background-color: #00b894;
+    }
+
+    #health .bikes {
+        border: 2px solid gray;
+        padding: 20px;
+        margin-top: 50px;
+        width: 300px;
+        background-color: #dfe6e9;
+    }
+    #health .bikes img {
+        height: 300px;
+        width: 250px;
+        /*   
+        если не указать ширину, то картинка подстроится сама*/
+        margin: 0 20px;
+        object-fit: contain;
+    }
+
+    #types {
+        background-color: #74b9ff;
+    }
+    #types ul{
+        margin: 40px 0;
+        /* list-style: none; отключает кружочки у немурованного списка */
+           padding-left: 40px;
+           list-style-image: url("../media/listimg.png");
+        /* можно вставить картинку вместо кружочка */
+     
+    } 
+    #types li{
+        margin: 10px 0;
+        
+        }
+       
